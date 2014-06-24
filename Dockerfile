@@ -31,4 +31,4 @@ RUN yum install -y httpd
 
 
 # ENTORYPOINT コマンドを使って、コンテナ起動時に実行するコマンドを与える
-ENTRYPOINT /etc/init.d/tomcat7 start && /bin/bash
+### ENTRYPOINT /etc/init.d/tomcat7 start && /bin/bash
